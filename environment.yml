@@ -1,0 +1,27 @@
+name: myenv
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.9
+  - pip
+  # Add your conda packages here
+  - numpy
+  - pandas
+  - matplotlib
+  - opencv
+  - pillow
+  - pytorch
+  - torchvision
+  - dlib
+  - scipy
+  - mediapipe
+  # Add pip packages
+  - pip:
+    # Add your pip packages here
+    - requests
+    - pytest
+    - face_recognition
+    - dlib
+    - deepface
+    - face4.py 

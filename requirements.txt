@@ -1,0 +1,7 @@
+numpy
+opencv-python
+pillow
+dlib
+mediapipe
+deepface
+tensorflow 
